@@ -19,7 +19,7 @@
 #         return s[-1]+reverse_string(s[:-1])
 # print(reverse_string("vishalika"))
 
-#recursive function to find the nth fibonacci number
+
 # def fibonacci(n):
 #     if n==0:
 #         return n
@@ -30,7 +30,7 @@
 # for i in range(10):
 #     print(fibonacci(i),end=' ')
 
-#recursive function to find sum of digits of a number
+
 # def sum_of_digits(n):
 #     if n==0:
 #         return 0
@@ -38,7 +38,7 @@
 #         return n%10+sum_of_digits(n//10)
 # print(sum_of_digits(1234))
 
-#recursive function to calculate the power of a number(x^n)
+
 # def power(x, n):
 #     if n == 0:
 #         return 1
@@ -47,7 +47,7 @@
 #     return x * power(x, n - 1)
 # print(power(2,2))
 
-#lambda function to check if a number is even or odd
+
 # check_even_odd = lambda n: "Even" if n % 2 == 0 else "Odd"
 # print(check_even_odd(4))  
 # print(check_even_odd(7))  
